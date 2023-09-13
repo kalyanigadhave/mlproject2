@@ -1,5 +1,5 @@
 import sys
-import logging
+
 
 def error_message_detail(error, error_detail:sys):
     _,_,exc_tab=error_detail.exc_info()
@@ -16,6 +16,8 @@ def error_message_detail(error, error_detail:sys):
 
         def __str__(self):
             return self.error_message
+        
+    
         
    
     
